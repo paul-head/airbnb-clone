@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # project apps
     "users.apps.UsersConfig",
+    "rooms.apps.RoomsConfig",
 ]
 
 MIDDLEWARE = [
@@ -117,4 +118,3 @@ STATIC_URL = "/static/"
 
 
 AUTH_USER_MODEL = "users.User"
-
