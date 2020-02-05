@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     # project apps
     "users.apps.UsersConfig",
     "rooms.apps.RoomsConfig",
+    "core.apps.CoreConfig",
+    # third party apps
+    "django_countries",
 ]
 
 MIDDLEWARE = [
