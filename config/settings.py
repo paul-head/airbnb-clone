@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     "users.apps.UsersConfig",
     "rooms.apps.RoomsConfig",
     "core.apps.CoreConfig",
+    "reviews.apps.ReviewsConfig",
+    "reservations.apps.ReservationsConfig",
     # third party apps
     "django_countries",
 ]
