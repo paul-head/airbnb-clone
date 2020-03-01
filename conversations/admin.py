@@ -7,7 +7,7 @@ class ConversationAdmin(admin.ModelAdmin):
 
     """ Conversation admin defenition """
 
-    pass
+    list_display = ("__str__", "count_messages", "count_participants")
 
 
 @admin.register(models.Message)
@@ -15,4 +15,4 @@ class MessageAdmin(admin.ModelAdmin):
 
     """ Message admin defenition """
 
-    pass
+    list_display = ("__str__", "created")
