@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "conversations.apps.ConversationsConfig",
     # third party apps
     "django_countries",
+    "django_seed",
 ]
 
 MIDDLEWARE = [
