@@ -271,3 +271,12 @@ fabric.properties
 
 .DS_Store
 uploads/
+
+# idea
+.idea
+
+
+# Environment
+
+.env
+.venv
